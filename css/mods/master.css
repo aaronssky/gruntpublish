@@ -1,0 +1,69 @@
+﻿/**css reset*/
+body, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, pre, blockquote, p, form, fieldset, legend, input, textarea, th, td, hr { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+li { list-style: none outside none; }
+fieldset, img { border: 0 none; }
+q:before, q:after { content: ""; }
+abbr[title], acronym[title] { }
+address, cite, dfn, em, var { font-style: normal; font-weight: normal; }
+button, input, select, textarea { font-size: 100%; }
+legend { color: #000000; }
+code, kbd, samp { font-family: "Courier New",monospace; }
+hr { border: medium none; height: 1px; }
+body, button, input, select, textarea { font: 12px/1.5 Arial,Tahoma,Helvetica,SimSun,san-serif; }
+a { text-decoration: none; }
+table tr td a { text-decoration: underline; }
+
+/**主体内容*/
+.content { height: auto; margin: 0 10px 10px 5px; padding: 10px; background: #ffffff;}
+    .content:after { clear: both;}
+.app { border: 1px solid #d7d7d7; border-radius: 5px 5px 5px 5px; }
+
+.subNav { background: none repeat scroll 0 0 #ededed; height: 33px; line-height: 33px; }
+.currentPosition img { margin-left: 5px; margin-right: 5px; vertical-align: middle; }
+.currentPosition .home { margin-left: 15px; margin-right: 0px; }
+.subNav a { color: #797979; font-family: Arial; font-size: 13px; }
+.navList li { float: right; }
+    .navList li a { display: block; padding: 0px 15px; border-left: 1px solid #d7d7d7; }
+        .navList li a:hover { color: #2B7ED9; background: url("../images/news/hoverBg.png") repeat-x; }
+.mb { margin-bottom: 10px; }
+
+.searchBox { background: #ebebeb; padding: 10px 20px; color: #797979; font-size: 13px; }
+    .searchBox input, .searchBox select { width: 100px; height: 20px; border: 1px solid #d7d7d7; margin-right: 10px; }
+    .searchBox div { vertical-align: middle; display: inline-block; *display: inline; }
+.line { margin: 0px 5px 0px 0px; }
+.select60 { width: 60px; }
+.searchBox .searchBtn { width: 80px; height: 32px; border: 0px; background: url("http://pic.chukou1.com/0/0_bec264.png"); }
+    .searchBox .searchBtn:hover { width: 80px; height: 32px; border: 0px; background: url("http://pic.chukou1.com/0/0_8aa847.png"); }
+
+.tableData { width: 100%; text-align: center; }
+    .tableData th, .tableData td { border: 1px solid #d7d7d7; height: 30px; }
+    .tableData th { background: #EFF1F3; }
+    .tableData .changeColor { background: #F1F3F5; }
+
+.m_list { position: absolute; background-color: #FFF; margin: 0px; list-style: none; display: none; border: 1px solid #AAA; width: auto; }
+    .m_list a:hover { background-color: #CCC; color: Red; }
+    .m_list a { color: #555555; text-decoration: none; width: 100%; display: block; line-height: 24px; }
+
+.Pager { margin: 10px auto; width: 100%; }
+    .Pager .btn { float: left; }
+    .Pager input[type="submit"] { padding: 3px 10px; }
+.K2046_Pager { float: right; height: 18px; margin-top: 5px; text-align: right; }
+    .K2046_Pager span, .K2046_Pager a { display: block; float: left; font-size: 12px; height: 18px; line-height: 18px; padding: 0 5px; }
+        .K2046_Pager a:link { color: #000000; text-decoration: none; }
+    .K2046_Pager .Activate { background-color: #555555; color: #FFFFFF; font-weight: bold; }
+    .K2046_Pager a:visited { color: #000000; text-decoration: none; }
+    .K2046_Pager a:hover { text-decoration: underline; }
+    .K2046_Pager .Disabled { color: #888888; }
+    .K2046_Pager .TextBox { width: 30px; }
+.red, span.red, a.red { color: Red; }
+
+/*master css*/
+.master-place-holder
+{
+	height:15px;
+}
+.clear
+{
+	clear:both;
+}
