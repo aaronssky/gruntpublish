@@ -1,0 +1,27 @@
+{
+	"name": "aron-assets",
+	"version": "0.0.1",
+	"description": "aron-assets for test",
+	"main": "Gruntfile.js",
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "~0.4.2",
+		"connect-livereload": "~0.5.3",
+		"grunt-contrib-watch": "~0.6.1",
+		"grunt-contrib-connect": "~0.10.1",
+		"grunt-contrib-concat": "^0.5.0",
+	    "grunt-contrib-jshint": "^0.10.0",
+	    "grunt-contrib-qunit": "^0.5.2",
+	    "grunt-contrib-uglify": "^0.6.0",
+	    "grunt-contrib-cssmin":"^0.7.0",
+	    "grunt-open": "~0.2.0",
+	    "grunt-shell": "~0.6.1",
+	    "grunt-githooks": "~0.3.1",
+	    "grunt-contrib-copy": "~0.5.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "www.bluesdream.com",
+	"license": "MIT license"
+}
